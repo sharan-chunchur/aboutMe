@@ -11,7 +11,10 @@ body{
     padding: 30%;
 }
 
-
+hr{
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+}
 
 .headings {
     font-family: 'Source Sans Pro', sans-serif;
@@ -29,6 +32,7 @@ body{
         font-weight: bold;
         margin: 10px 0 0 0;
         letter-spacing: 1px;
+        font-size: large;
 }
 
 .icon{
@@ -43,6 +47,7 @@ body{
     display: inline-block;
     vertical-align: baseline;
     letter-spacing: 1px;
+    font-size: medium;
 }
 
 .skill-icon{
@@ -72,6 +77,7 @@ body{
     color: rgb(163, 163, 163);
     letter-spacing: 1px;
     word-spacing: 2px;
+    font-size: medium;
 }
 
 .indentation{
@@ -87,8 +93,8 @@ body{
     font-family:Arial, Helvetica, sans-serif !important;
 }
 .btn-sm {
-    font-size:x-small;
+    font-size:smaller;
     margin: 0 6px;
-    padding: 2px 4px 2px 4px;
+    padding: 2px 4px;
 }
 
