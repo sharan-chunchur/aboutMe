@@ -35,6 +35,8 @@ hr{
         font-size: large;
 }
 
+
+
 .icon{
     margin-right: 5px;
     width:12px;
@@ -64,7 +66,6 @@ hr{
 #dp {
     border-radius: 50%;
     width: 100%;
-
 }
 
 .row1{
@@ -78,11 +79,15 @@ hr{
     letter-spacing: 1px;
     word-spacing: 2px;
     font-size: medium;
-}
-
-.indentation{
     margin-left: 1rem;
 }
+
+.flag{
+    vertical-align: text-bottom;
+    font-weight: bolder;
+    color:rgb(93, 158, 219);
+}
+
 
 .btn{
     color: #ffffff !important;
@@ -98,3 +103,13 @@ hr{
     padding: 2px 4px;
 }
 
+@media (max-width : 900px) {
+
+body{
+    margin-left: 12%;
+    width: 76%;
+}
+
+
+
+}
